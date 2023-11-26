@@ -1,5 +1,6 @@
 const calculateSquare = (value) => {
-  console.log( value**2 ) ;
+
+  return value**2
 }
 
-calculateSquare(20);
+console.log( calculateSquare(20) ) ;
